@@ -151,7 +151,7 @@ print(colored('[+] Done from Phobos', 'yellow' ))
 ##### 
 print ("")
 print(colored('[+] Searching in "TOR66" http://tor77orrbgejplwp.onion... ', 'green' ))
-session.get("http://tor77orrbgejplwp.onion/search?q=" + xquery + "&sorttype=rel&page=1" )
+session.get("http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/search?q=" + xquery + "&sorttype=rel&page=1" )
 page = session.get("http://phobosxilamwcg75xt22id7aywkzol6q6rfl2flipcqoc4e4ahima5id.onion/search?query="+ xquery + "&sorttype=rel&page=1" )
 soup = BeautifulSoup(page.text, 'html.parser')
 tags = soup.find_all('a', attrs={'href': re.compile("^http://")})
